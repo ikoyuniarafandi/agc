@@ -3,7 +3,7 @@ $(document).ready(function()
     console.log('jquery ready!');
 
 	var popbox = `<div class="popbox hide" id="popbox"><div aria-label='Close' class="pop-overlay" role="button" tabindex="0"/><div class="pop-content"><div class="popcontent" align="center"> 
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <center><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- ads fb 1 -->
 <ins class="adsbygoogle"
      style="display:inline-block;width:336px;height:280px"
@@ -11,7 +11,7 @@ $(document).ready(function()
      data-ad-slot="3778618165"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script></center>
 <button class='g_url btn btn-success btn-dwn m-2'>Confirm</button> <br/></div> <button class='g_url popbox-close-button'>&times;</button></div></div>`;
 
 	$(document.body).append(popbox);
