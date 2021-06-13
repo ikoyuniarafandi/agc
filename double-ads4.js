@@ -2,15 +2,15 @@ $(document).ready(function()
 {
     console.log('jquery ready!');
 
-	var popbox = `<div class="popbox hide" id="popbox"><div aria-label='Close' class="pop-overlay" role="button" tabindex="0"/><div class="pop-content"><div class="popcontent" align="center"> <img src="<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	var popbox = `<div class="popbox hide" id="popbox"><div aria-label='Close' class="pop-overlay" role="button" tabindex="0"/><div class="pop-content"><div class="popcontent" align="center"> <img src="<script async src="<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- ads fb -->
 <ins class="adsbygoogle"
-     style="display:block"
-     data-ad-format="autorelaxed"
+     style="display:inline-block;width:300px;height:600px"
      data-ad-client="ca-pub-6974290213233116"
-     data-ad-slot="4693890803"></ins>
+     data-ad-slot="4753622637"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" width="640" height="320" alt="" /> <button class='g_url btn btn-success btn-dwn m-2'>Confirm</button> <br/></div> <button class='g_url popbox-close-button'>&times;</button></div></div>`;
+</script>"  width="640" height="320" alt="" /> <button class='g_url btn btn-success btn-dwn m-2'>Confirm</button> <br/></div> <button class='g_url popbox-close-button'>&times;</button></div></div>`;
 
 	$(document.body).append(popbox);
 
